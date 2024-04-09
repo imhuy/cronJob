@@ -4,9 +4,9 @@ import Head from 'next/head'
 
 const intervals = [
   {
-    id: '1m',
-    name: 'Every Minute',
-    cron: '* * * * *',
+    id: '1d',
+    name: 'Every Day',
+    cron: '0 0 * * *',
   }
 ]
 
